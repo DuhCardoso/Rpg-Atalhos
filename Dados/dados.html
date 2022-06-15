@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Inicio Atalhos D&D</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- BARA DE NAVEGAÇÂO -->
+    <nav id="navigation">
+        
+        <h2 class="logo"><a href="../index.html">Atalhos D&D</a></h2>
+        <ul>
+            <li><a href="#">-Raças</a></li>
+            <li><a href="#">-Classes</a></li>
+            <li><a href="#">-Antecedentes</a></li>
+            <li><a href="#">-Itens</a></li>
+            <li><a href="#">-Dados</a></li>
+            <li><a href="#">-Links extras</a></li>
+        </ul>
+        
+    </nav>
+
+    <!-- HOME -->
+    <main id="home">
+
+        <div class="wrapper">
+            <h1>Rolagem de Dados</h1>
+            
+            <input type="number" value="3" id="mod">
+            <input type="number" value="1" id="nDados"><br>
+
+            <button type="" id="rD4" onclick="d4()">d4</button>
+            <button type="" id="rD6" onclick="d6()">d6</button>
+            <button type="" id="rD8" onclick="d8()">d8</button>
+            <button type="" id="rD10" onclick="d10()">d10</button>
+            <button type="" id="rD12" onclick="d12()">d12</button>
+            <button type="" id="rD20" onclick="d20()">d20</button>
+            <button type="" id="rD100" onclick="d100()">d100</button>
+
+            <h2>Resultado:</h2><br>
+            <div id="result">
+                <h3 style="color: red;"></h3>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- RODA PÉ -->
+    <footer>
+        Apenas o brabo
+    </footer>
+
+
+    <!-- BACK TO TOP -->
+    <a href="#home" id="backToTop"  onscroll="onScroll()" class="">
+        <svg 
+        width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="20" fill="#00856F" stroke="white" stroke-width="2" />
+        <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" b/>
+        </svg>
+    </a>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

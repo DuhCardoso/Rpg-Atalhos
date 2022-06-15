@@ -11,13 +11,14 @@
     font-size: 62.5%;
     
     /* == VAR ===== */
-    --preimary-color: hsl(124, 32%, 29%);
+    --preimary-color: hsl(354, 86%, 37%);
+    --secundary-color: hsl(35, 91%, 50%);
     --headline: hsl(210, 11%, 15%);
     --paragraph: hsl(210, 9%, 31%);
-    --brand-beige: hsl(39, 100%, 97%);
+    --brand-beige: hsl(40, 100%, 97%);
 
     --bg-color: hsl(46, 71%, 93%);
-    --bg-nav:hsl(0, 66%, 47%);
+    --bg-nav:hsl(354, 86%, 37%);
     
 }
 
@@ -58,6 +59,7 @@ ul{
 
 a{
     text-decoration: none;
+    color: var(--headline);
 }
 
 img{
@@ -115,7 +117,7 @@ p{
     width: 100vw;
 
     background-color: var(--bg-nav);
-    border-bottom: .5rem solid rgb(221, 161, 11);
+    border-bottom: .5rem solid var(--secundary-color);
     align-items: center;
 }
 
@@ -193,7 +195,7 @@ footer{
     align-items: center;
     padding-top: 4rem;
 
-    border-top: .5rem solid hsl(43, 91%, 45%);
+    border-top: .5rem solid var(--secundary-color);
 }
 
 
@@ -224,5 +226,5 @@ footer{
 
 #backToTop circle{
     fill: var(--bg-nav);
-    stroke: hsl(43 91% 45%);
+    stroke: var(--secundary-color)
 }
