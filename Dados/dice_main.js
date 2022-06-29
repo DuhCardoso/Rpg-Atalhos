@@ -1,9 +1,12 @@
 //==== DADOS.html ============================
-
-for(let i = 0; i >= 10; i++){
+const test= () => {
+for(let i = 0; i <= 10; i++){
     // codigo
     console.log(i) // console: 1;  2;  3;  4;  5;  6;  7;  8;  9;  10
 }
+}
+test()
+
 
 const dice = (n) => {
     let dadoType = n
@@ -19,15 +22,20 @@ const dice = (n) => {
     // Rolagem do dado
     let i = 0
     try{
-        while(i < nD){
+        while(i <= nD){
         let dSomas=+ mod.value +(Math.floor(Math.random() *n +1))
         let resultado
 
+
+        
+        const htmlOneDice =  "<div>" + '<img src="./media/d20.jpg" alt="imagem de um dado de 20 lados">'+"<h2>" + dSomas + "</h2>" + "</div>"
+        const htmlDiceMorOne  = + "<div>" + '<img src="./media/d20.jpg" alt="imagem de um dado de 20 lados">'+"<h2>" + dSomas + "</h2>" + "</div>"
+
         // Result
         if(i == 0){
-            resultado = result.innerHTML = "<div>" + '<img src="./media/d20.jpg" alt="imagem de um dado de 20 lados">'+"<h2>" + dSomas + "</h2>" + "</div>"
+            resultado = result.innerHTML = htmlOneDice
         }else if(i>=1){ // Mais de 1 dado
-            resultado = result.innerHTML = +"<div>" + '<img src="./media/d20.jpg" alt="imagem de um dado de 20 lados">'+"<h2>" + dSomas + "</h2>" + "</div>"
+            resultado = result.innerHTML = htmlDiceMorOne  
         }
 
         // Result Crit
@@ -44,7 +52,7 @@ const dice = (n) => {
         e => {console.log(e)}
     }
 }
-
+dice(20)
 
 
 
