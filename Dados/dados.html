@@ -32,13 +32,13 @@
             <input type="number" value="0" id="mod">
             <input type="number" value="2" id="nDados"><br>
 
-            <button type="" id="rD4" onclick="d4()">d4</button>
-            <button type="" id="rD6" onclick="d6()">d6</button>
-            <button type="" id="rD8" onclick="d8()">d8</button>
-            <button type="" id="rD10" onclick="d10()">d10</button>
-            <button type="" id="rD12" onclick="d12()">d12</button>
-            <button type="" id="rD20" onclick="d20()">d20</button>
-            <button type="" id="rD100" onclick="d100()">d100</button>
+            <button type="" id="rD4" onclick="d4(4)">d4</button>
+            <button type="" id="rD6" onclick="d6(10)">d6</button>
+            <button type="" id="rD8" onclick="d8(10)">d8</button>
+            <button type="" id="rD10" onclick="d10(10)">d10</button>
+            <button type="" id="rD12" onclick="dice(12)">d12</button>
+            <button type="" id="rD20" onclick="dice(20)">d20</button>
+            <button type="" id="rD100" onclick="d100(100)">d100</button>
 
             <button onclick="test()">test</button>
 
@@ -71,7 +71,8 @@
         </svg>
     </a>
 
-
+    
+    <script src="./dice_main.js"></script>
     <script src="../main.js"></script>
 </body>
 </html>
