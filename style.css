@@ -134,9 +134,9 @@ p{
 }
 
 
-/* === HOME ========= */
+/* === MAIN ========= */
 
-#home{
+main{
     background-color: hsl(35, 89%, 82%);
     width: 90%;
     margin-inline: auto;
@@ -149,11 +149,11 @@ p{
 }
 
 
-#home header{
+main header{
     margin-bottom: 5rem;
 }
 
-
+/* --- MAIN HOME ------- */
 #home .atalhos{
     display: flex;
     flex-wrap: wrap;
@@ -185,6 +185,35 @@ p{
 #home .atalhos .dados img{
     opacity: 0.82;
 }
+
+
+/* --- MAIN DADOS ------- */
+#dados{
+    display: grid;
+    grid-area: a;
+}
+
+#dados #result{
+    display: flex;
+    justify-content: center;
+    flex: 1 2 true;
+}
+
+#dados #result div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 2 true;
+    flex-wrap: wrap;
+}
+#dados #result div img{
+    position: relative;
+    opacity: .75;
+}
+#dados #result div h2{
+    position: absolute;
+}
+
 
 
 /* ==== FOOTER ============================== */

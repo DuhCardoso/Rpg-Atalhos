@@ -24,13 +24,13 @@
     </nav>
 
     <!-- HOME -->
-    <main id="home">
+    <main id="dados">
 
         <div class="wrapper">
-            <h1>Rolagem de Dados</h1>
+            <header><h1>Rolagem de Dados</h1></header>
             
-            <input type="number" value="3" id="mod">
-            <input type="number" value="1" id="nDados"><br>
+            <input type="number" value="0" id="mod">
+            <input type="number" value="2" id="nDados"><br>
 
             <button type="" id="rD4" onclick="d4()">d4</button>
             <button type="" id="rD6" onclick="d6()">d6</button>
@@ -40,9 +40,14 @@
             <button type="" id="rD20" onclick="d20()">d20</button>
             <button type="" id="rD100" onclick="d100()">d100</button>
 
+            <button onclick="test()">test</button>
+
             <h2>Resultado:</h2><br>
             <div id="result">
-                <h3 style="color: red;"></h3>
+                <div>
+                    <img src="./media/d20.jpg" alt="imagem de um dado de 20 lados">
+                    <!-- <h2 style="color: red;"></h2> -->
+                </div>
             </div>
 
         </div>
