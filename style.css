@@ -215,6 +215,28 @@ main header{
 }
 
 
+/* --- MAIN RAÇAS ------- */
+#races h1{
+    margin-bottom: 2rem;
+}
+#races nav{
+    border-block: 1px black solid;
+    
+    height: 10rem;
+    padding-block: 2rem;
+    margin-bottom: 2rem;
+}
+#races nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    
+}
+
+
 
 /* ==== FOOTER ============================== */
 
