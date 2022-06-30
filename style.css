@@ -244,6 +244,12 @@ main header{
     width: 32.5rem;
     height: 40rem; 
 }
+#races article p{
+    font-size: 1.8rem;
+}
+#races article h3{
+    font-size: 2rem;
+}
 #races article h3,
 #races article p,
 #races article img{
