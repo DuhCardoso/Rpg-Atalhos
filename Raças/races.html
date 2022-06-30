@@ -38,25 +38,112 @@
                     <li>
                         <a href="#Aasimar">=Aasimar=</a>
                     </li>
+                    <li>
+                        <a href="#Anoes">=Anões=</a>
+                    </li>
+                    <li>
+                        <a href="#Bugbear">=Bugbear=</a>
+                    </li>
                 </ul>
             </nav>
             <article id="Aarakocra">
                 <h3>AARAKOCRA</h3>
+                <img src="./medias/Aarakocra.jpg" alt="Raça de d&d que é uma aguia humanoide">
 
-                <p><strong>Atributo: +2 Des; +1 Sab</strong><br>
-                <strong>Tamanho:</strong> Médio<br>
-                <strong>Deslocamento:</strong> 6 metros, voo 15 metros<br>
+                <p><strong>Atributo: +2 Des; +1 Sab.</strong><br>
+                <strong>Tamanho:</strong> Médio.<br>
+                <strong>Deslocamento:</strong> 6 metros, voo 15 metros.<br>
                 <strong>Idiomas:</strong> Common, Aarakocra, e Auran.<br><br>
 
                 <strong>Idade:</strong> Os aarakocras atingem a maturidade aos 3 anos de idade. Comparados aos humanos, os aarakocras geralmente não vivem mais de 30 anos.<br>
-                <strong>Alinhamento:</strong> A maioria dos aarakocras são bons e raramente escolhem lados quando se trata de lei e caos. Líderes tribais e guerreiros podem ser leais, enquanto exploradores e aventureiros podem tender ao caótico<br>
+                <strong>Alinhamento:</strong> A maioria dos aarakocras são bons e raramente escolhem lados quando se trata de lei e caos.<br>
                 <strong>Altura e Peso:</strong> Aarakocra tem cerca de 1.5 metros de altura. Eles têm corpos finos e leves que pesam entre 36 e 45 Kg.<br><br>
 
                 <Strong>Voo:</Strong> Você tem um deslocamento de voo de 15 metros. Para usar esta velocidade, você não pode usar armadura média ou pesada.<br>
-                <strong>Garras:</strong> Você é proficiente com seus ataques desarmados, que causam 1d4 de dano cortante em um acerto.<br>
+                <strong>Garras:</strong> Você é proficiente com seus ataques desarmados, que causam 1d4 de dano cortante em um acerto.
                 </p>
             </article>
+            <article id="Aasimar">
+                <h3>AASIMAR</h3>
+                <img src="./medias/Aasimar.jpg" alt="Homem de cabelos brancos e armadura dourada, desembainhando uma espada">
 
+                <p><strong>Atributo: +2 CAR.</strong><br>
+                <strong>Tamanho:</strong> Médio.<br>
+                <strong>Deslocamento:</strong> 6 metros, voo 15 metros.<br>
+                <strong>Idiomas:</strong> Common e Celestial.<br><br>
+
+                <strong>Idade:</strong> Comparada aos humanos, porem videm um pouco mais.<br>
+                <strong>Alinhamento:</strong> Normalmente boa, mas alguns deles rejeitam sua linhagem e caem para o mal.<br>
+                <strong>Altura e Peso:</strong> Aarakocra tem cerca de 1.70 metros de altura. Eles têm corpos como de humanos<br><br>
+
+                <Strong>Portador da luz:</Strong> Conhece o Truque Luz.<br>
+                <strong>Resistência Celestial:</strong> Você é resistente á dano Necrótico e Radiante.<br>
+                <strong>Visão no Escuro:</strong> Trata penumbra como luz normal e escuridão com penumbra, ambos a até 18m.
+                </p>
+
+                <label for="inputAasimar"><strong>Sub. Raça:</strong></label>
+                <input id="inputAasimar" type="range" list="subRaca_Aasimar" min="1" max="3" oninput="Aasimar()">
+                <datalist id="subRaca_Aasimar">
+                    <option value="1">Caído</option>
+                    <option value="2">Flagelo</option>
+                    <option value="3">Protetor</option>
+                </datalist>
+                <div class="subAasimar">
+                
+                </div>
+            </article>
+            <article id="Anoes">
+                <h3>ANÕES</h3>
+                <img src="./medias/Anoes.jpg" alt="Raça de d&d que é uma aguia humanoide">
+
+                <p><strong>Atributo: +2 CON.</strong><br>
+                <strong>Tamanho:</strong> Médio.<br>
+                <strong>Deslocamento:</strong> 7.5 metros.<br>
+                <strong>Idiomas:</strong> Common e Celestial.<br><br>
+
+                <strong>Idade:</strong> Chegam a idade adulta aos 50, vivem até os 350.<br>
+                <strong>Alinhamento:</strong> Normalmente Leal e Bom.<br>
+                <strong>Altura e Peso:</strong>Tem cerca de 1.20 a 1.50 metros de altura. Pesam aproximadamente 75kg
+                <strong>Ferramentas:</strong> Proficiência em um entre ferramentas de Ferreiro, Maçom ou Cervejeiro.<br><br>
+
+                <Strong>Lento e Firme:</Strong> Deslocamento não é reduzido por armadura.                <br>
+                <strong>Ligação com Pedra:</strong> Adiciona dobro de proficiência em História relacionado à origem de trabalhos de pedra.<br>
+                <strong>Resiliência:</strong> Resistência a dano de veneno e Vantagem em testes de resistência contra veneno. <br>
+                <strong>Treino em Combate Anão:</strong> Proficiência com machado de guerra, machadinha, martelo de arremesso, martelo de guerra.<br>
+                <strong>Visão no Escuro:</strong> Trata a escuridão a 18m como luz baixa, e luz baixa como brilhante.
+                </p>
+
+                <label for="inputAnoes"><strong>Sub. Raça:</strong></label>
+                <input id="inputAnoes" type="range" list="subRaca_Anoes" min="1" max="3" oninput="Anoes()">
+                <datalist id="subRaca_Anoes">
+                    <option value="1">Anão da colina</option>
+                    <option value="2">Anão da montanha</option>
+                    <option value="3">Anão das profundezas (DUERGAR)</option>
+                </datalist>
+                <div class="subAnoes">
+                
+                </div>
+            </article>
+            <article id="Bugbear">
+                <h3>BUGBEAR</h3>
+                <img src="./medias/Bugbear.jpg" alt="Humanoide peludo segurando uma clava com espinhos, apontando para direita">
+
+                <p><strong>Atributo: +2 FOR; +1 DES.</strong><br>
+                <strong>Tamanho:</strong> Médio.<br>
+                <strong>Deslocamento:</strong> 9 metros.<br>
+                <strong>Idiomas:</strong> Common e Goblin.<br><br>
+
+                <strong>Idade:</strong> Atingem a idade adulta aos 16 anos e vivem até 80 anos.<br>
+                <strong>Alinhamento:</strong> Bugbears suportam uma existência dura que exige que cada um deles permaneça auto-suficiente, mesmo às custas de seus companheiros. Eles tendem a ser caóticos e maus.<br>
+                <strong>Altura e Peso:</strong> 1.80 e 2.40 metros de altura e pesam entre 113 e 158 Kg.<br><br>
+
+                <Strong>Visão no escuro:</Strong> Você pode ver na penumbra a até 18 metros de você como se fosse luz brilhante, e na escuridão como se fosse luz fraca. Você não pode discernir cores na escuridão, apenas tons de cinza.<br>
+                <strong>Membros Longos:</strong> Quando você faz um ataque corpo a corpo no seu turno, seu alcance é 1,5 metro maior que o normal. <br>
+                <strong>Construção Poderosa:</strong> Você conta como um tamanho maior ao determinar sua capacidade de carga e o peso que pode empurrar, arrastar ou levantar.<br>
+                <strong>Sorrateiro:</strong> Você é proficiente na perícia furtividade.<br>
+                <strong>Ataque surpresa:</strong> Se você surpreender uma criatura e acertá-la com um ataque em seu primeiro turno de combate, o ataque causará 2d6 de dano extra a ela. Você pode usar esta característica apenas uma vez por combate.<br>
+                </p>
+            </article>
         </div>
 
     </main>
@@ -69,7 +156,7 @@
 
 
     <!-- BACK TO TOP -->
-    <a href="#home" id="backToTop"  onscroll="onScroll()" class="">
+    <a href="#races" id="backToTop"  onscroll="onScroll()" class="">
         <svg 
         width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="20" cy="20" r="20" fill="#00856F" stroke="white" stroke-width="2" />
@@ -79,6 +166,6 @@
     </a>
 
 
-    <script src="./main.js"></script>
+    <script src="../main.js"></script>
 </body>
 </html>

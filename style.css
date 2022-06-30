@@ -234,7 +234,28 @@ main header{
     justify-content: center;
     gap: 1.5rem;
     
+    padding-top: 2rem;
 }
+
+#races article{
+    margin-bottom: 10rem;
+}
+#races article img{
+    width: 32.5rem;
+    height: 40rem; 
+}
+#races article h3,
+#races article p,
+#races article img{
+    margin-bottom: 2rem;
+}
+
+#races article input{
+    margin-bottom: 3rem;
+}
+
+
+
 
 
 
