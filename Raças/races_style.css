@@ -1,0 +1,46 @@
+/* --- MAIN RAÇAS ------- */
+#races h1{
+    margin-bottom: 2rem;
+}
+#races nav{
+    border-block: 1px black solid;
+    
+    height: 10rem;
+    padding-block: 2rem;
+    margin-bottom: 2rem;
+}
+#races nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    
+    padding-top: 2rem;
+}
+
+#races article{
+    margin-bottom: 10rem;
+}
+#races article img{
+    width: 32.5rem;
+    height: 40rem; 
+}
+#races article p{
+    font-size: 1.8rem;
+}
+#races article h3{
+    font-size: 2rem;
+}
+#races article h3,
+#races article p,
+#races article img{
+    margin-bottom: 2rem;
+}
+
+#races article input{
+    margin-bottom: 3rem;
+}
+
+

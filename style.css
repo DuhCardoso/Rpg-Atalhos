@@ -14,7 +14,7 @@
     --preimary-color: hsl(354, 86%, 37%);
     --secundary-color: hsl(35, 91%, 50%);
     --headline: hsl(210, 11%, 15%);
-    --paragraph: hsl(210, 9%, 31%);
+    --paragraph: hsl(210, 13%, 24%);
     --brand-beige: hsl(40, 100%, 97%);
 
     --bg-color: hsl(46, 71%, 93%);
@@ -185,82 +185,6 @@ main header{
 #home .atalhos .dados img{
     opacity: 0.82;
 }
-
-
-/* --- MAIN DADOS ------- */
-#dados{
-    display: grid;
-    grid-area: a;
-}
-
-#dados #result{
-    display: flex;
-    justify-content: center;
-    flex: 1 2 true;
-}
-
-#dados #result div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1 2 true;
-    flex-wrap: wrap;
-}
-#dados #result div img{
-    position: relative;
-    opacity: .75;
-}
-#dados #result div h2{
-    position: absolute;
-}
-
-
-/* --- MAIN RAÇAS ------- */
-#races h1{
-    margin-bottom: 2rem;
-}
-#races nav{
-    border-block: 1px black solid;
-    
-    height: 10rem;
-    padding-block: 2rem;
-    margin-bottom: 2rem;
-}
-#races nav ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    
-    padding-top: 2rem;
-}
-
-#races article{
-    margin-bottom: 10rem;
-}
-#races article img{
-    width: 32.5rem;
-    height: 40rem; 
-}
-#races article p{
-    font-size: 1.8rem;
-}
-#races article h3{
-    font-size: 2rem;
-}
-#races article h3,
-#races article p,
-#races article img{
-    margin-bottom: 2rem;
-}
-
-#races article input{
-    margin-bottom: 3rem;
-}
-
-
 
 
 

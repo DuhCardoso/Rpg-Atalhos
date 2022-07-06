@@ -1,0 +1,26 @@
+/* --- MAIN DADOS ------- */
+#dados{
+    display: grid;
+    grid-area: a;
+}
+
+#dados #result{
+    display: flex;
+    justify-content: center;
+    flex: 1 2 true;
+}
+
+#dados #result div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 2 true;
+    flex-wrap: wrap;
+}
+#dados #result div img{
+    position: relative;
+    opacity: .75;
+}
+#dados #result div h2{
+    position: absolute;
+}
