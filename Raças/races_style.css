@@ -1,4 +1,4 @@
-/* --- MAIN RAÇAS ------- */
+/* === MAIN RAÇAS ======= */
 #races h1{
     margin-bottom: 2rem;
 }
@@ -22,6 +22,9 @@
 
 #races article{
     margin-bottom: 10rem;
+    padding-bottom: 1.5rem;
+    border-bottom: .5rem double;
+
 }
 #races article img{
     width: 32.5rem;
@@ -35,20 +38,19 @@
 }
 #races article h3,
 #races article p,
-#races article img{
+#races article img,
+#races article div{
     margin-bottom: 2rem;
 }
 
-#races article input{
+#races article select{
     margin-bottom: 3rem;
 }
 
-.subAasimar{
-    margin-top: 2rem;
-}
+
+
 
 /* --- SUB RAÇAS: AASIMAR ------- */
-
 
 #Aasimar #caido{
     display: none;
@@ -71,4 +73,28 @@
     display: initial;
 }
 
+
+
+/* --- SUB RAÇAS: ANÃO ------- */
+
+#Anao #anaoColina{
+    display: none;
+}
+#Anao #anaoColina.view{
+    display: initial;
+}
+
+#Anao #anaoMontanha{
+    display: none;
+}
+#Anao #anaoMontanha.view{
+    display: initial;
+}
+
+#Anao #anaoPronfundezas{
+    display: none;
+}
+#Anao #anaoPronfundezas.view{
+    display: initial;
+}
 

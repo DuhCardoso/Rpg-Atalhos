@@ -23,3 +23,28 @@ function Aasimar() {
         protetor.classList.remove("view")
     }
 }
+
+// SUB-RACE ANAO
+function Anao() {
+    const select= document.querySelector("#selectAnoes")
+
+    
+    // CAIDO
+    if(select.value==1){
+        anaoColina.classList.add("view")
+    }else {
+        anaoColina.classList.remove("view")
+    }
+    // Flagelado
+    if(select.value==2){
+        anaoMontanha.classList.add("view")
+    }else {
+        anaoMontanha.classList.remove("view")
+    }
+    // Protetor
+    if(select.value==3){
+        anaoPronfundezas.classList.add("view")
+    }else {
+        anaoPronfundezas.classList.remove("view")
+    }
+}
