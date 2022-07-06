@@ -43,4 +43,32 @@
     margin-bottom: 3rem;
 }
 
+.subAasimar{
+    margin-top: 2rem;
+}
+
+/* --- SUB RAÇAS: AASIMAR ------- */
+
+
+#Aasimar #caido{
+    display: none;
+}
+#Aasimar #caido.view{
+    display: initial;
+}
+
+#Aasimar #flagelo{
+    display: none;
+}
+#Aasimar #flagelo.view{
+    display: initial;
+}
+
+#Aasimar #protetor{
+    display: none;
+}
+#Aasimar #protetor.view{
+    display: initial;
+}
+
 
