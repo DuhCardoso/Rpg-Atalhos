@@ -134,15 +134,35 @@
                 <strong>Visão no Escuro:</strong> Trata a escuridão a 18m como luz baixa, e luz baixa como brilhante.
                 </p>
 
-                <label for="inputAnoes"><strong>Sub. Raça:</strong></label>
-                <select id="selectAnoes">
+                <label for="selectAnoes"><strong>Sub. Raça:</strong></label>
+                <select id="selectAnoes" onclick="Anao()">
                     <option value="0">-------</option>
                     <option value="1">Anão da colina</option>
                     <option value="2">Anão da montanha</option>
                     <option value="3">Anão das profundezas (DUERGAR)</option>
                 </select>
                 <div class="subAnoes">
-                
+                    <div id="anaoColina">
+                        <h4>Anão da colina</h4>
+                        <p><strong>Atributo:</strong> +1 SAB <br>
+                            <strong>Firmeza Anã:</strong> +1 PA por nível.
+                        </p>
+                    </div>
+                    <div id="anaoMontanha">
+                        <h4>Anão da colina</h4>
+                        <p><strong>Atributo:</strong> +2 FOR <br>
+                            <strong>Proficiência:</strong> Armaduras leves e médias.
+                        </p>
+                    </div>
+                    <div id="anaoPronfundezas">
+                        <h4>Anão da profundezas</h4>
+                        <p><strong>Visão no Escuro Superior:</strong> Visão no Escuro 36m. <br>
+                            <strong>Resiliência Profunda:</strong> Vantagem em testes de resistência contra ilusão e ser enfeitiçado ou paralisado. <br>
+                            Idioma Extra: Subterrâneo. <br>
+                            <strong>Magia Profunda: A partir do nível 3</strong> pode usar a opção aumentar de Aumentar/Reduzir em você mesmo uma vez por dia. <strong>A partir do nível 5</strong> também pode usar Invisibilidade em você mesmo uma vez por dia. Essas magias são baseadas em INT, e você não pode usá-las quando sob luz solar. <br>
+                            <strong>Sensibilidade à Luz:</strong> Desvantagem em ataque e Percepção quando você ou alvo estão em luz solar direta.
+                        </p>
+                    </div>
                 </div>
             </article>
             <article id="Bugbear">

@@ -29,19 +29,19 @@ function Anao() {
     const select= document.querySelector("#selectAnoes")
 
     
-    // CAIDO
+    // Anão da Colina
     if(select.value==1){
         anaoColina.classList.add("view")
     }else {
         anaoColina.classList.remove("view")
     }
-    // Flagelado
+    // Anão da Montanha
     if(select.value==2){
         anaoMontanha.classList.add("view")
     }else {
         anaoMontanha.classList.remove("view")
     }
-    // Protetor
+    // Anão das Profundezas
     if(select.value==3){
         anaoPronfundezas.classList.add("view")
     }else {
