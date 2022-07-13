@@ -48,3 +48,74 @@ function Anao() {
         anaoPronfundezas.classList.remove("view")
     }
 }
+
+// ANCESTRAIS DRACONATOS
+function Draconato() {
+    const select= document.querySelector("#selectAncestral")
+
+    
+    // Azul
+    if(select.value==1){
+        ancestralAzul.classList.add("view")
+    }else {
+        ancestralAzul.classList.remove("view")
+    }
+    // Branco
+    if(select.value==2){
+        ancestralBranco.classList.add("view")
+    }else {
+        ancestralBranco.classList.remove("view")
+    }
+    // Bronze
+    if(select.value==3){
+        ancestralBronze.classList.add("view")
+    }else {
+        ancestralBronze.classList.remove("view")
+    }
+    // Cobre
+    if(select.value==4){
+        ancestralCobre.classList.add("view")
+    }else {
+        ancestralCobre.classList.remove("view")
+    }
+    // Latão
+    if(select.value==5){
+        ancestralLatao.classList.add("view")
+    }else {
+        ancestralLatao.classList.remove("view")
+    }
+    // Ouro
+    if(select.value==6){
+        ancestralOuro.classList.add("view")
+    }else {
+        ancestralOuro.classList.remove("view")
+    }
+    // Prata
+    if(select.value==7){
+        ancestralPrata.classList.add("view")
+    }else {
+        ancestralPrata.classList.remove("view")
+    }
+    // Preto
+    if(select.value==8){
+        ancestralPreto.classList.add("view")
+    }else {
+        ancestralPreto.classList.remove("view")
+    }
+    // Verde
+    if(select.value==9){
+        ancestralVerde.classList.add("view")
+    }else {
+        ancestralVerde.classList.remove("view")
+    }
+    // Vermelho
+    if(select.value==10){
+        ancestralVermelho.classList.add("view")
+    }else {
+        ancestralVermelho.classList.remove("view")
+    }
+}
+
+
+
+

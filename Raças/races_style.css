@@ -52,23 +52,13 @@
 
 /* --- SUB RAÇAS: AASIMAR ------- */
 
-#Aasimar #caido{
-    display: none;
-}
-#Aasimar #caido.view{
-    display: initial;
-}
-
-#Aasimar #flagelo{
-    display: none;
-}
-#Aasimar #flagelo.view{
-    display: initial;
-}
-
+#Aasimar #caido,
+#Aasimar #flagelo,
 #Aasimar #protetor{
     display: none;
 }
+#Aasimar #caido.view,
+#Aasimar #flagelo.view,
 #Aasimar #protetor.view{
     display: initial;
 }
@@ -77,24 +67,45 @@
 
 /* --- SUB RAÇAS: ANÃO ------- */
 
-#Anao #anaoColina{
-    display: none;
-}
-#Anao #anaoColina.view{
-    display: initial;
-}
-
+#Anao #anaoColina,
+#Anao #anaoPronfundezas,
 #Anao #anaoMontanha{
     display: none;
 }
-#Anao #anaoMontanha.view{
-    display: initial;
-}
-
-#Anao #anaoPronfundezas{
-    display: none;
-}
+#Anao #anaoColina.view,
+#Anao #anaoMontanha.view,
 #Anao #anaoPronfundezas.view{
     display: initial;
 }
+
+
+
+/* --- ANCESTRALIDADE-DRACONATO ------- */
+
+#Draconato #ancestralAzul,
+#Draconato #ancestralBranco,
+#Draconato #ancestralBronze,
+#Draconato #ancestralCobre,
+#Draconato #ancestralLatao,
+#Draconato #ancestralOuro,
+#Draconato #ancestralPrata,
+#Draconato #ancestralPreto,
+#Draconato #ancestralVerde,
+#Draconato #ancestralVermelho{
+    display: none;
+}
+
+#Draconato #ancestralAzul.view,
+#Draconato #ancestralBranco.view,
+#Draconato #ancestralBronze.view,
+#Draconato #ancestralCobre.view,
+#Draconato #ancestralLatao.view,
+#Draconato #ancestralOuro.view,
+#Draconato #ancestralPrata.view,
+#Draconato #ancestralPreto.view,
+#Draconato #ancestralVerde.view,
+#Draconato #ancestralVermelho.view{
+    display: initial;
+}
+
 

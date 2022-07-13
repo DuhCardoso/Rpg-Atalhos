@@ -31,7 +31,7 @@
             <header>
                 <h1>Raças:</h1>
             </header>
-            <nav>
+            <nav id="navRaces">
                 <ul>
                     <li>
                         <a href="#Aarakocra">=Aarakocra=</a>
@@ -47,6 +47,12 @@
                     </li>
                     <li>
                         <a href="#Centauro">=Centauro=</a>
+                    </li>
+                    <li>
+                        <a href="#Changeling">=Changeling=</a>
+                    </li>
+                    <li>
+                        <a href="#Draconato">=Draconato=</a>
                     </li>
                 </ul>
             </nav>
@@ -207,6 +213,104 @@
                     <strong>Cascos:</strong> Seus cascos são armas brancas naturais, que você pode usar para fazer ataques desarmados. Se você acertar com eles, você causa dano de concussão igual a 1d4 + seu modificador de Força.<br>
                     <strong>Construção Equina:</strong> Você conta como um tamanho maior ao determinar sua capacidade de carga e o peso que você pode empurrar ou arrastar.Além disso, qualquer escalada que exija mãos e pés é especialmente difícil para você por causa de suas pernas. Quando você faz tal escalada, cada 30 cm de movimento custa 1 metro extras, em vez do normal 30 cm extra. <br>
                     <strong>Sobrevivente:</strong> Você tem proficiência em uma das seguintes perícias de sua escolha: Adestrar Animais, Medicina, Natureza ou Sobrevivência.
+                </p>
+            </article>
+            <article id="Changeling">
+                <h3>CHANGELING</h3>
+                <img src="./medias/Changeling.jpg" alt="">
+                
+                <p><strong>Atributo: +2 Des; +1 Sab</strong><br>
+                    <strong>Tamanho:</strong> Médio <br>
+                    <strong>Deslocamento:</strong> 9 metros. <br>
+                    <strong>Idiomas:</strong> Common, e mais dois a sua escolha.<br><br>
+
+                    <strong>Idade:</strong> Os changelings amadurecem um pouco mais rápido que os humanos, mas compartilham uma vida útil semelhante – geralmente um século ou menos.<br>
+                    <strong>Alinhamento:</strong>Changelings tendem à neutralidade pragmática, e poucos changelings abraçam o mal.<br>
+                    <strong>Altura e Peso:</strong> Centauros têm entre 1.80 e 2.40 pés de altura, com seus corpos equinos atingindo cerca de 1.2 metors. <br><br>
+
+                    
+                    <strong>Metamorfo:</strong> Como uma ação, você pode mudar sua aparência e sua voz. Você determina as especificidades das mudanças, incluindo sua coloração, comprimento do cabelo e sexo. Você também pode ajustar sua altura e peso, mas não tanto que seu tamanho mude. Você pode se fazer parecer como um membro de outra raça, embora nenhuma de suas estatísticas de jogo mude. Você não pode duplicar a aparência de uma criatura que nunca viu e deve adotar uma forma que tenha o mesmo arranjo básico de membros que você tem. Suas roupas e equipamentos não são alterados por esta característica.<br>
+                    Você permanece na nova forma até usar uma ação para reverter à sua forma verdadeira ou até morrer.<br>
+                    <strong>Instintos Mutantes:</strong> Você ganha proficiência com duas das seguintes perícias à sua escolha: Enganação, Intuição, Intimidação e Persuasão.
+                </p>
+            </article>
+            <article id="Draconato">
+                <h3>DRACONATO</h3>
+                <img src="./medias/Draconato.jpg" alt="">
+                
+                <p><strong>Atributo: +2 For; +1 Car</strong><br>
+                    <strong>Tamanho:</strong> Médio <br>
+                    <strong>Deslocamento:</strong> 9 metros. <br>
+                    <strong>Idiomas:</strong> Common, Dracônico.<br><br>
+
+                    <strong>Idade:</strong> Os Draconatos amadurecem aos 15 anos, e compartilham uma vida útil semelhante aos humanos.<br>
+                    <strong>Alinhamento:</strong>Changelings tendem à Bom Leal ou Caótico Mau.<br>
+                    <strong>Altura e Peso:</strong> Draconatos têm mais de 1,80m. Peso médio 125kg. <br><br>
+                
+                    
+                    <strong>Ancestralidade Dracônica:</strong> Escolha um ancestral dracônico. Suas escamas são dessa cor, sua resistência e sopro são de acordo com o elemento ligado:
+                </p><br>
+
+                <label for="selectAncestral"><strong>Ancestrais:</strong></label>
+                <select id="selectAncestral" onclick="Draconato()">
+                    <option value="0">-------</option>
+                    <option value="1">Azul</option>
+                    <option value="2">Branco</option>
+                    <option value="3">Bronze</option>
+                    <option value="4">Cobre</option>
+                    <option value="5">Latão</option>
+                    <option value="6">Ouro</option>
+                    <option value="7">Prata</option>
+                    <option value="8">Preto</option>
+                    <option value="9">Verde</option>
+                    <option value="10">Vermelho</option>
+                </select>
+                <div class="Ancestral">
+                    <div id="ancestralAzul">
+                        <p><strong>Azul:</strong> Eletricidade - Dano em Linha de 1,5mts por 6mts - Save: Dex.
+                        </p>
+                    </div>
+                    <div id="ancestralBranco">
+                        <p><strong>Branco:</strong> Frio - Cone de 4.5mts - Save: Con.
+                        </p>
+                    </div>
+                    <div id="ancestralBronze">
+                        <p><strong>Bronze:</strong> Eletricidade - Dano em Linha de 1,5mts por 6mts - Save: Dex.
+                        </p>
+                    </div>
+                    <div id="ancestralCobre">
+                        <p><strong>Cobre:</strong> Ácido - Dano em Linha de 1,5mts por 6mts - Save: Dex
+                        </p>
+                    </div>
+                    <div id="ancestralLatao">
+                        <p><strong>Latão:</strong> Fogo - Dano em Linha de 1,5mts por 6mts - Save: Dex
+                        </p>
+                    </div>
+                    <div id="ancestralOuro">
+                        <p><strong>Ouro:</strong> Fogo - Cone de 4.5mts - Save: Dex
+                        </p>
+                    </div>
+                    <div id="ancestralPrata">
+                        <p><strong>Prata:</strong> Frio - Cone de 4.5mts - Save: Con
+                        </p>
+                    </div>
+                    <div id="ancestralPreto">
+                        <p><strong>Preto:</strong> Ácido - Dano em Linha de 1,5mts por 6mts - Save: Dex
+                        </p>
+                    </div>
+                    <div id="ancestralVerde">
+                        <p><strong>Verde:</strong> Fogo - Cone de 4.5mts - Save: Dex
+                        </p>
+                    </div>
+                    <div id="ancestralVermelho">
+                        <p><strong>Vermelho:</strong> Fogo - Cone de 4.5mts - Save: Dex
+                        </p>
+                    </div>
+                </div><br>
+
+                <p>
+                    <strong>Resistência:</strong> Recebe resistência ao elemento de seu ancestral.<br>
+                    <strong>Sopro:</strong> Uma vez por descanso pode fazer um sopro que causa 2d6 (resistência de DES metade, CD 8 + Proficiência + CON). Esse dano aumenta em 1d6 aos níveis: 6, 11 e 16.
                 </p>
             </article>
         </div>
