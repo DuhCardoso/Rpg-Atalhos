@@ -140,22 +140,22 @@ function Elfo() {
         elfoMarinho.classList.remove("view")
     }
     // Elfo Negro
-    if(select.value==3){
+    if(select.value==4){
         elfoNegro.classList.add("view")
     }else {
         elfoNegro.classList.remove("view")
     }
     // Elfo Silvestre
-    if(select.value==3){
+    if(select.value==5){
         elfoSilvestre.classList.add("view")
     }else {
         elfoSilvestre.classList.remove("view")
     }
     // Shandar-Kai
-    if(select.value==3){
-        ShandarKai.classList.add("view")
+    if(select.value==6){
+        shandarKai.classList.add("view")
     }else {
-        ShandarKai.classList.remove("view")
+        shandarKai.classList.remove("view")
     }
 
 }
