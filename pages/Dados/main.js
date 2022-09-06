@@ -1,15 +1,8 @@
 //==== DADOS.html ============================
-const test= () => {
-for(let i = 0; i <= 10; i++){
-    // codigo
-    console.log(i) // console: 1;  2;  3;  4;  5;  6;  7;  8;  9;  10
-}
-}
-test()
 
 
 const dice = (n) => {
-    let dadoType = n
+    let diceType = n
     let nD= nDados.value
 
 
@@ -20,47 +13,49 @@ const dice = (n) => {
 
     
     // Rolagem do dado
-    let i = 0
-    try{
-        while(i <= nD){
-        let dSomas=+ mod.value +(Math.floor(Math.random() *n +1))
-        let resultado
-
-
+    function roll(i){
+            
+        let dSomas=+ mod.value +(Math.floor(Math.random() *diceType +1))
         
-        const htmlOneDice =  "<div>" + '<img src="./media/d20.jpg" alt="imagem de um dado de 20 lados">'+"<h2>" + dSomas + "</h2>" + "</div>"
-        const htmlDiceMorOne  = + "<div>" + '<img src="./media/d20.jpg" alt="imagem de um dado de 20 lados">'+"<h2>" + dSomas + "</h2>" + "</div>"
+
 
         // Result
-        if(i == 0){
-            resultado = result.innerHTML = htmlOneDice
-        }else if(i>=1){ // Mais de 1 dado
-            resultado = result.innerHTML = htmlDiceMorOne  
+        if(!(dSomas -mod.value == diceType || dSomas -mod.value == 1) && i==0){
+            resultado = `<div><img src="./media/d20.png" alt="imagem de um dado de 20 lados"><h2> ${dSomas} </h2></div>`
+        } // Result Crit
+        else if((dSomas -mod.value == diceType || dSomas -mod.value == 1)&& i==0){
+            resultado = `<div><img src="./media/d20.png" alt="imagem de um dado de 20 lados"><h2 style='color: red;'> ${dSomas} </h2></div>`
         }
 
-        // Result Crit
-        if((dSomas -mod.value == n || dSomas -mod.value == 1) && i==0){
-            resultado = result.innerHTML = "<div>" + '<img src="./media/d20.jpg" alt="imagem de um dado de 20 lados">'+"<h2 style='color: red;'>" + dSomas + "</h2>" + "</div>"
-        
-        }else if((dSomas -mod.value == n || dSomas -mod.value == 1) && i>=1){
-            resultado = result.innerHTML = +"<div>" + '<img src="./media/d20.jpg" alt="imagem de um dado de 20 lados">'+"<h2 style='color: red;'>" + dSomas + "</h2>" + "</div>"
+        // Result
+        if(!(dSomas -mod.value == diceType || dSomas -mod.value == 1) && i>=1){
+            resultado += `<div><img src="./media/d20.png" alt="imagem de um dado de 20 lados"><h2> ${dSomas} </h2></div>`
+        } // Result Crit
+        else if((dSomas -mod.value == diceType || dSomas -mod.value == 1) && i>=1){
+            resultado += `<div><img src="./media/d20.png" alt="imagem de um dado de 20 lados"><h2 style='color: red;'> ${dSomas} </h2></div>`
         }
 
-        i++
-        return resultado
-    }} catch{
-        e => {console.log(e)}
+        console.log(resultado)
+        result.innerHTML = resultado
+    }
+
+    for(let i= 0; i<nD; i++){
+        let resultado
+        roll(i)
     }
 }
 dice(20)
 
+// "<div>"+'<img src="./media/d20.jpg" alt="imagem de um dado de 20 lados">'+"<h2 style='color: red;'>" + dSomas + "</h2>">+"</div>"
 
 
 
-
-
-
-
+// function rollDice() {
+//     return Math.floor(Math.random() * 6);
+//   }
+// for(let i = 0; i < 7; i++){ 
+//     console.log(rollDice());
+// }
 
 /* 
 const d4 = () => {

@@ -30,23 +30,32 @@
         <div class="wrapper">
             <header><h1>Rolagem de Dados</h1></header>
             
-            <input type="number" value="0" id="mod">
-            <input type="number" value="2" id="nDados"><br>
+            <section id="inputList">
+                <div class="A">
+                    <label for="mod">Modificador:</label><br>
+                    <input type="number" value="0" id="mod"><br>
+                </div>
+                <div class="B">
+                    <label for="nDados">Quantidade de Dados:</label><br>
+                    <input type="number" value="1" id="nDados" min="1"><br>
+                </div>
+            </section>
+            
+            <section id="buttonList">
+                <button type="" id="rD4" onclick="dice(4)">d4</button>
+                <button type="" id="rD6" onclick="dice(6)">d6</button>
+                <button type="" id="rD8" onclick="dice(8)">d8</button>
+                <button type="" id="rD10" onclick="dice(10)">d10</button>
+                <button type="" id="rD12" onclick="dice(12)">d12</button>
+                <button type="" id="rD20" onclick="dice(20)">d20</button>
+                <button type="" id="rD100" onclick="dice(100)">d100</button>
+            </section>
 
-            <button type="" id="rD4" onclick="dice(4)">d4</button>
-            <button type="" id="rD6" onclick="dice(10)">d6</button>
-            <button type="" id="rD8" onclick="dice(10)">d8</button>
-            <button type="" id="rD10" onclick="dice(10)">d10</button>
-            <button type="" id="rD12" onclick="dice(12)">d12</button>
-            <button type="" id="rD20" onclick="dice(20)">d20</button>
-            <button type="" id="rD100" onclick="dice(100)">d100</button>
-
-            <button onclick="test()">test</button>
 
             <h2>Resultado:</h2><br>
             <div id="result">
                 <div>
-                    <img src="./media/d20.jpg" alt="imagem de um dado de 20 lados">
+                    <img src="./media/d20.png" alt="imagem de um dado de 20 lados">
                     <!-- <h2 style="color: red;"></h2> -->
                 </div>
             </div>
