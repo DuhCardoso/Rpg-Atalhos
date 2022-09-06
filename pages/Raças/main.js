@@ -116,6 +116,47 @@ function Draconato() {
     }
 }
 
+// SUB-RACE ELFO
+function Elfo() {
+    const select= document.querySelector("#selectElfo")
 
+    
+    // Alto Elfo
+    if(select.value==1){
+        altoElfo.classList.add("view")
+    }else {
+        altoElfo.classList.remove("view")
+    }
+    // Eladrin
+    if(select.value==2){
+        Eladrin.classList.add("view")
+    }else {
+        Eladrin.classList.remove("view")
+    }
+    // Elfo Marinho
+    if(select.value==3){
+        elfoMarinho.classList.add("view")
+    }else {
+        elfoMarinho.classList.remove("view")
+    }
+    // Elfo Negro
+    if(select.value==4){
+        elfoNegro.classList.add("view")
+    }else {
+        elfoNegro.classList.remove("view")
+    }
+    // Elfo Silvestre
+    if(select.value==5){
+        elfoSilvestre.classList.add("view")
+    }else {
+        elfoSilvestre.classList.remove("view")
+    }
+    // Shandar-Kai
+    if(select.value==6){
+        shandarKai.classList.add("view")
+    }else {
+        shandarKai.classList.remove("view")
+    }
 
+}
 

@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Inicio Atalhos D&D</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="./races_style.css">
+    <title>Raças - Atalhos D&D</title>
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <!-- BARA DE NAVEGAÇÂO -->
     <nav id="navigation">
         
-        <h2 class="logo"><a href="../index.html">Atalhos D&D</a></h2>
+        <h2 class="logo"><a href="../../index.html">Atalhos D&D</a></h2>
         <ul>
             <li><a href="#">-Raças</a></li>
             <li><a href="#">-Classes</a></li>
             <li><a href="#">-Antecedentes</a></li>
             <li><a href="#">-Itens</a></li>
-            <li><a href="../Dados/dice.html">-Dados</a></li>
+            <li><a href="../Dados/index.html">-Dados</a></li>
             <li><a href="#">-Links extras</a></li>
         </ul>
         
@@ -53,6 +53,9 @@
                     </li>
                     <li>
                         <a href="#Draconato">=Draconato=</a>
+                    </li>
+                    <li>
+                        <a href="#Elfo">=Elfo=</a>
                     </li>
                 </ul>
             </nav>
@@ -98,22 +101,22 @@
                     <option value="2">Flagelo</option>
                     <option value="3">Protetor</option>
                 </select>
-                <div class="subAasimar">
-                    <div id="caido">
+                <div class="subRacaAasimar">
+                    <div id="caido" class="subAasimar">
                         <h4>Caído</h4>
                         <p>
                             <strong>Atributo: +1 FOR.</strong><br>
                             <strong>Consumo Radiante:</strong> A partir do nível 3, uma vez por dia pode liberar energia celestial por 1 minuto ou até terminar o efeito com ação bônus. Ao ativar o efeito criaturas a até 3m devem passar em resistência de CAR baseada em CAR ou ficarem Assustadas até o fim do próximo turno. Uma vez por turno causa +nível dano necrótico em um de seus ataques ou magias.
                         </p>
                     </div>
-                    <div id="flagelo">
+                    <div id="flagelo" class="subAasimar">
                         <h4>Flagelo</h4>
                         <p>
                             <strong>Atributo: +1 CON. </strong><br>
                             <strong>Consumo Radiante:</strong> A partir do nível 3, uma vez por dia pode liberar energia celestial por 1 minuto ou até terminar o efeito com ação bônus. Durante o efeito emana luz brilhante a 3m e luz baixa em mais 3m. Ao final de seu turno você e criaturas a até 3m sofrem ½ seu nível como dano radiante, e uma vez por turno causa +nível dano radiante em um de seus ataques ou magias.
                         </p>
                     </div>
-                    <div id="protetor">
+                    <div id="protetor" class="subAasimar">
                         <h4>Protetor</h4>
                         <p>
                             <strong>Atributo: +1 FOR.</strong><br>
@@ -150,20 +153,20 @@
                     <option value="2">Anão da montanha</option>
                     <option value="3">Anão das profundezas (DUERGAR)</option>
                 </select>
-                <div class="subAnoes">
-                    <div id="anaoColina">
+                <div class="subRacaAnao">
+                    <div id="anaoColina" class="subAnao">
                         <h4>Anão da colina</h4>
                         <p><strong>Atributo:</strong> +1 SAB <br>
                             <strong>Firmeza Anã:</strong> +1 PA por nível.
                         </p>
                     </div>
-                    <div id="anaoMontanha">
+                    <div id="anaoMontanha" class="subAnao">
                         <h4>Anão da colina</h4>
                         <p><strong>Atributo:</strong> +2 FOR <br>
                             <strong>Proficiência:</strong> Armaduras leves e médias.
                         </p>
                     </div>
-                    <div id="anaoPronfundezas">
+                    <div id="anaoPronfundezas" class="subAnao">
                         <h4>Anão da profundezas</h4>
                         <p><strong>Visão no Escuro Superior:</strong> Visão no Escuro 36m. <br>
                             <strong>Resiliência Profunda:</strong> Vantagem em testes de resistência contra ilusão e ser enfeitiçado ou paralisado. <br>
@@ -244,7 +247,7 @@
                     <strong>Idiomas:</strong> Common, Dracônico.<br><br>
 
                     <strong>Idade:</strong> Os Draconatos amadurecem aos 15 anos, e compartilham uma vida útil semelhante aos humanos.<br>
-                    <strong>Alinhamento:</strong>Changelings tendem à Bom Leal ou Caótico Mau.<br>
+                    <strong>Alinhamento:</strong>Draconatos tendem à Bom Leal ou Caótico Mau.<br>
                     <strong>Altura e Peso:</strong> Draconatos têm mais de 1,80m. Peso médio 125kg. <br><br>
                 
                     
@@ -266,43 +269,43 @@
                     <option value="10">Vermelho</option>
                 </select>
                 <div class="Ancestral">
-                    <div id="ancestralAzul">
+                    <div id="ancestralAzul" class="ancestalDraconato">
                         <p><strong>Azul:</strong> Eletricidade - Dano em Linha de 1,5mts por 6mts - Save: Dex.
                         </p>
                     </div>
-                    <div id="ancestralBranco">
+                    <div id="ancestralBranco" class="ancestalDraconato">
                         <p><strong>Branco:</strong> Frio - Cone de 4.5mts - Save: Con.
                         </p>
                     </div>
-                    <div id="ancestralBronze">
+                    <div id="ancestralBronze" class="ancestalDraconato">
                         <p><strong>Bronze:</strong> Eletricidade - Dano em Linha de 1,5mts por 6mts - Save: Dex.
                         </p>
                     </div>
-                    <div id="ancestralCobre">
+                    <div id="ancestralCobre" class="ancestalDraconato">
                         <p><strong>Cobre:</strong> Ácido - Dano em Linha de 1,5mts por 6mts - Save: Dex
                         </p>
                     </div>
-                    <div id="ancestralLatao">
+                    <div id="ancestralLatao" class="ancestalDraconato">
                         <p><strong>Latão:</strong> Fogo - Dano em Linha de 1,5mts por 6mts - Save: Dex
                         </p>
                     </div>
-                    <div id="ancestralOuro">
+                    <div id="ancestralOuro" class="ancestalDraconato">
                         <p><strong>Ouro:</strong> Fogo - Cone de 4.5mts - Save: Dex
                         </p>
                     </div>
-                    <div id="ancestralPrata">
+                    <div id="ancestralPrata" class="ancestalDraconato">
                         <p><strong>Prata:</strong> Frio - Cone de 4.5mts - Save: Con
                         </p>
                     </div>
-                    <div id="ancestralPreto">
+                    <div id="ancestralPreto" class="ancestalDraconato">
                         <p><strong>Preto:</strong> Ácido - Dano em Linha de 1,5mts por 6mts - Save: Dex
                         </p>
                     </div>
-                    <div id="ancestralVerde">
+                    <div id="ancestralVerde" class="ancestalDraconato">
                         <p><strong>Verde:</strong> Fogo - Cone de 4.5mts - Save: Dex
                         </p>
                     </div>
-                    <div id="ancestralVermelho">
+                    <div id="ancestralVermelho" class="ancestalDraconato">
                         <p><strong>Vermelho:</strong> Fogo - Cone de 4.5mts - Save: Dex
                         </p>
                     </div>
@@ -312,6 +315,98 @@
                     <strong>Resistência:</strong> Recebe resistência ao elemento de seu ancestral.<br>
                     <strong>Sopro:</strong> Uma vez por descanso pode fazer um sopro que causa 2d6 (resistência de DES metade, CD 8 + Proficiência + CON). Esse dano aumenta em 1d6 aos níveis: 6, 11 e 16.
                 </p>
+            </article>
+             <article id="Elfo">
+                <h3>ELFO</h3>
+                <img src="./medias/Elfo.jpg" alt="">
+                
+                <p><strong>Atributo: +2 Des;</strong><br>
+                    <strong>Tamanho:</strong> Médio <br>
+                    <strong>Deslocamento:</strong> 9 metros. <br>
+                    <strong>Idiomas:</strong> Common, Elfico.<br><br>
+
+                    <strong>Idade:</strong> Os Elfos chegam a idade adulta aos 100 anos, e vivem até entorno de 750 anos.<br>
+                    <strong>Alinhamento:</strong>Elfos tendem à serem Bom caoticos.<br>
+                    <strong>Altura e Peso:</strong>Elfos têm em media de 1,50 a 1,80m de altura. Com Pesos diversos pendendo para o lado magro.<br><br>
+                
+                    <strong>Ancestralidade Feérica:</strong> Vantagem contra ser Enfeitiçado, imune a magias de sono.<br>
+                    <strong>Transe:</strong> Não dorme. Descanso prolongado de apenas 4 horas.<br>
+                    <strong>Sopro:</strong> Visão no Escuro: Trata escuridão a até 18m como Luz Baixa, e luz baixa como brilhante.
+                </p>
+                
+                <label for="selectElfo"><strong>Sub-Raças:</strong></label>
+                <select id="selectElfo" onclick="Elfo()">
+                    <option value="0">-------</option>
+                    <option value="1">Alto Elfo</option>
+                    <option value="2">Eldrin</option>
+                    <option value="3">Elfo marinho</option>
+                    <option value="4">Elfo Negro</option>
+                    <option value="5">Elfo silvestre</option>
+                    <option value="6">Shadar-Kai</option>
+                </select>
+                <div class="subRacaElfo">
+                    <div id="altoElfo" class="subElfo">
+                        <h4>Alto Elfo</h4>
+                        <p>
+                            <strong>Atributo:</strong> +1 INT.
+                            <strong>Idioma Extra:</strong> Hábil em um idioma a mais<br>
+                            <strong>Treino em Arma:</strong> Proficiência em Espada Longa e Curta, Arco Longo e Curto.<br>
+                            <strong>Truque:</strong> Conhece um truque da lista de Mago.
+                        </p>
+                    </div>
+                    <div id="Eladrin" class="subElfo">
+                        <h4>Eladrin</h4>
+                        <p>
+                            <strong>Atributo:</strong> +1 Car.
+                            <strong>Passos Feéricos:</strong> Uma vez por descanso curto pode se teletransportar a até 9m com uma ação bônus. Essa habilidade é recuperada com um Descanso Curto.<br>
+                            A partir do nível 3 também gera um efeito adicional de acordo com sua estação escolhida. A CD é baseada em CAR.<br>
+                            
+                            <strong>Inverno:</strong> Criatura adjacente antes de seu teletransporte acaba ficando assustada até o fim de seu próximo turno. Resistência de SAB nega. <br>
+
+                            <strong>Outono:</strong> Após seu passo feérico, até duas criaturas visíveis a até 3m de você devem passar em resistência de SAB ou ficam Enfeitiçadas por você por 1 minuto ou até você ou seus companheiros causarem dano a ela.<br>
+
+                            <strong>Primavera:</strong> Teletransporta aliado adjacente tocado ao invés de você.<br>
+
+                            <strong>Verão:</strong>  Após seu passo feérico, criaturas adjacentes visíveis à sua escolha sofrem seu CAR em dano de fogo.
+                        </p>
+                    </div>
+                    <div id="elfoMarinho" class="subElfo">
+                        <h4>Elfo Marinho</h4>
+                        <p>
+                            <strong>Atributo:</strong> +1 Con.
+                            <strong>Treino em Arma:</strong> Proficiência em Lança, Tridente, Besta Leve e Rede.<br>
+                            <strong>Filho do Mar:</strong> Deslocamento de nado 9m e pode respirar água..<br>
+                            <strong>Idioma Adicional:</strong> Aquan.
+                        </p>
+                    </div>
+                    <div id="elfoNegro" class="subElfo">
+                        <h4>Elfo Negro</h4>
+                        <p>
+                            <strong>Atributo:</strong> +1 Car.
+                            <strong>Magia:</strong> Conhece o truque Globos de Luz. A partir do nível 3 pode usar Fogo Feérico uma vez por dia. <br> A partir do nível 5 também pode usar Escuridão uma vez por dia.
+                            <br>
+                            <strong>Sensibilidade à Luz:</strong> Desvantagem em ataque, Percepção e Investigação de visão quando em luz solar.<br>
+                            <strong>Visão no Escuro Superior:</strong> Alcance estendido para 36m.
+                        </p>
+                    </div>
+                    <div id="elfoSilvestre" class="subElfo">
+                        <h4>Elfo silvestre</h4>
+                        <p>
+                            <strong>Atributo:</strong> +1 Sab.
+                            <strong>Treino em Arma:</strong> Proficiência em Espada Longa e Curta, Arco Longo e Curto.<br>
+                            <strong>Bênção da Rainha Corvo:</strong> Uma vez por descanso curto pode se teletransportar a até 9m com uma ação bônus.
+                        </p>
+                    </div>
+                    <div id="shandarKai" class="subElfo">
+                        <h4>Shandar-Kai</h4>
+                        <p>
+                            <strong>Atributo:</strong> +1 Con.
+                            <strong>Resistência Necrótica:</strong> Resistência à dano necrótico.<br>
+                            <strong>Pé Rápido:</strong> +1,5m de deslocamento.<br>
+                            <strong>Máscara do Ermo:</strong> Pode se esconder enquanto apenas levemente obscurecido por fenômeno natural.
+                        </p>
+                    </div>
+                </div>
             </article>
         </div>
 
@@ -335,7 +430,7 @@
     </a>
 
 
-    <script src="../main.js"></script>
-    <script src="./races_main.js"></script>
+    <script src="../../main.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
