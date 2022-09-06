@@ -30,6 +30,7 @@
 #dados #inputList input{
     padding: .5rem;
     text-align: center;
+    font-size: 2rem;
 
     border:.2rem solid var(--headline);
 }
@@ -50,8 +51,11 @@
 }
 #dados #buttonList button{
     padding: .5rem;
-    width: 4.5rem;
-    height: 4rem;
+    width: 5.5rem;
+    height: 5rem;
+
+    font-weight: bold;
+    font-size: 1.6rem;
 
     border-radius: 20%;
     border:.2rem solid var(--headline);
